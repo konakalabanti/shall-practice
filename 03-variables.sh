@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PERSON1=suresh
-PERSON2=ramesh
+PERSON1=banti
+PERSON2=twinkle
 
 echo "$PERSON1 :: hi $PERSON2 how are you?"
 echo "$PERSON2:: im doing good thanks for asking, how about you?"
