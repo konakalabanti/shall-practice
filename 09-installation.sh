@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USER=$(id -u)
+USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
    echo "please run the script with user user"
@@ -13,7 +13,7 @@ dnf install nginx -y  #command
 
 if [ $? -ne 0 ]; then  #for previous command excute ayindha ha kaledha ane command
    echo "Installing Nginx ... FAILURE" #for printing
-   ecxir 1
+   exit 1
 
 else #failre kakapothe 
    echo "Installing Nginx ... SUCCESS" #ani evvu
