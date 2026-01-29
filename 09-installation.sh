@@ -19,3 +19,25 @@ else #failre kakapothe
    echo "Installing Nginx ... SUCCESS" #ani evvu
 
 fi
+
+dnf install mysql -y  #command 
+
+if [ $? -ne 0 ]; then  #for previous command excute ayindha ha kaledha ane command
+   echo "Installing MySQL ... FAILURE" #for printing
+   exit 1
+
+else #failre kakapothe 
+   echo "Installing MySQL ... SUCCESS" #ani evvu
+
+fi
+
+dnf install nodejs -y  #command 
+
+if [ $? -ne 0 ]; then  #for previous command excute ayindha ha kaledha ane command
+   echo "Installing nodejs ... FAILURE" #for printing
+   exit 1
+
+else #failre kakapothe 
+   echo "Installing nodejs ... SUCCESS" #ani evvu
+
+fi
