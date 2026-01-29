@@ -2,8 +2,8 @@
 
 
 NUM01=100
-NUM02=200
+NUM02=BANTI
 
-SUM=$(($NUM01+$banti))
+SUM=$(($NUM01+$NUM02))
 
 echo "sum is : $SUM "
