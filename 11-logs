@@ -24,15 +24,15 @@ VALIDATE () {  #thi is function name
 
 echo "Installing Nginx" #for printing
 
-dnf install NGINX -y >>& $LOGS_FILE
+dnf install nginx -y &>> $LOGS_FILE
 
 VALIDATE $? "nginx installation"  #for validation
 
-dnf install mysql -y >>& $LOGS_FILE #command 
+dnf install mysql -y &>> $LOGS_FILE #command 
 
 VALIDATE $? "my sql intallation "
 
-dnf install nodejs -y >>& $LOGS_FILE #command 
+dnf install nodejs -y &>> $LOGS_FILE #command 
 
 VALIDATE $? "mynodejs installation"
 
