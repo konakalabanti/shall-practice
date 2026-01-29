@@ -13,6 +13,6 @@ echo "sum is : $SUM "
 FRUITS=("apple , banana ,pomo")
 
 echo " fruits are : ${FRUITS[@]}"
-echo " first fruit are : ${FRUITS[0]}"
-echo " second fruit are: ${FRUITS[1]}"
-echo " third fruit are : ${FRUITS[2]}"
+echo " first fruit is : ${FRUITS[0]}"
+echo " second fruit is : ${FRUITS[1]}"
+echo " third fruit is : ${FRUITS[2]}"
