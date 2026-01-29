@@ -8,3 +8,4 @@ echo "user name $USER_NAME"  # this is for printing purpose
 echo "please enter user password ::"
 read -s PASSWORD   # -s ante manam echhe password kanioinchakunda chesthunadhi 
 
+echo "passpord $PASSWORD"  #this for printing , in real projent we do not use
