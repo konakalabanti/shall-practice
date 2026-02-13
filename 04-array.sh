@@ -2,4 +2,4 @@
 
 FRUTES=("Apple" "banana" "pomo")
 
-echo "fruites are : ${FRUTES(@)}"
+echo "fruites are : ${FRUTES[@]}"
