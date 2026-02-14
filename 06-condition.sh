@@ -1,6 +1,6 @@
 NUMBER=$1
 
-if [ $NUMBER -ls 10 ] ; then
+if [ $NUMBER -lt 10 ] ; then
 echo "number is less then 10"
 
 elif [ $NUMBER -gt 5 ] ; then
