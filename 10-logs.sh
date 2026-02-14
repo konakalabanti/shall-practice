@@ -1,15 +1,14 @@
 #!/bin/bash
 
 USERID=$(id -u)
-FOLDER_LOG="/var/logs/shell-script"
-LOG_FILE="/var/logs/shell-scrip/$0.log"
+FOLDER_LOG="/var/log/shell-script"
+LOG_FILE="/var/log/shell-script/$0.log"
  
  if [ $USERID -ne 0 ] ; then
    echo "please switch to root"
    exit 1
  fi
 
-mkdir -p $FOLDER_LOG
 
  VALIDATE() {
 
