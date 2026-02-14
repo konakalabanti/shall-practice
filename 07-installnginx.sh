@@ -10,7 +10,7 @@ echo "please install Nginx"
    dnf install nginx -y
 
 
-   if [ @? -ne 0 ] ; then
+   if [ $? -ne 0 ] ; then
      echo "INGIX INSTALLATOION FAILURE"
      exit 1
     
