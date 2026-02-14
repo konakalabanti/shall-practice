@@ -2,12 +2,9 @@
 
 USERID=$(id -u)
  
- if [ $USERID -ne 0 ] ; then
-   echo "please run the script with root user"
-
+if [ $USERID -ne 0 ] ; then
+   echo "please switch to root"
    exit 1
-
-   echo "please install Nginx"
-
-   dnf install nginx -y
 fi
+echo "please install Nginx"
+   dnf install nginx -y
