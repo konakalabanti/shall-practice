@@ -5,7 +5,7 @@ FOLDER_LOG="/var/log/shell-script"
 LOG_FILE="/var/log/shell-script/$0.log"
  
  if [ $USERID -ne 0 ] ; then
-   echo "please switch to root"
+   echo "please switch to root" | tee -a $LOG_FILE
    exit 1
  fi
 
@@ -13,11 +13,11 @@ LOG_FILE="/var/log/shell-script/$0.log"
  VALIDATE() {
 
     if [ $1 -ne 0 ] ; then
-     echo "$2 ....FAILURE"
+     echo "$2 ....FAILURE"  |tee -a $LOG_FILE
      exit 1
     
      else 
-       echo "$2.... SUCCESS"
+       echo "$2.... SUCCESS" | tee -a $LOG_FILE
     fi
  }
 
