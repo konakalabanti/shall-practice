@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 FOLDER_LOG="/var/logs/shell-script"
-LOG_FILE="/var/logs/shell-scrip/$0.log
+LOG_FILE="/var/logs/shell-scrip/$0.log"
  
  if [ $USERID -ne 0 ] ; then
    echo "please switch to root"
