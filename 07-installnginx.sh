@@ -8,3 +8,13 @@ if [ $USERID -ne 0 ] ; then
 fi
 echo "please install Nginx"
    dnf install nginx -y
+
+
+   if [ @? -ne 0 ] ; then
+     echo "INGIX INSTALLATOION FAILURE"
+     exit 1
+    
+
+      else 
+       echo "INGIX INSTALLATION SUCCESS"
+    fi
