@@ -25,7 +25,7 @@ if [ $num -gt 5 ] ; then
 
 echo "number is gretern then 5"
 
-elif [ $num -eq 10 ]
+elif [ $num -eq 10 ] ; then
 
 echo "number is equel to 10"
 
