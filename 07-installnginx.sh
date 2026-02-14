@@ -10,4 +10,4 @@ USERID=$(id -u)
    echo "please install Nginx"
 
    dnf install nginx -y
-if   
+fi
