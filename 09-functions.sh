@@ -19,15 +19,15 @@ USERID=$(id -u)
 }
 
    dnf install nginx -y
-   VALIDATE $? "installing nginx"
+   VALIDATE $1 "installing nginx"
 
    
    dnf install mysql -y
-   VALIDATE $? "installing mysql"
+   VALIDATE $1 "installing mysql"
 
 
    dnf install nodejs -y
-   VALIDATE $? "installing nodejs"
+   VALIDATE $1 "installing nodejs"
 
 
    
