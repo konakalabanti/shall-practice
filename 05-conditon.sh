@@ -30,7 +30,6 @@ elif [ $num -eq 10 ]
 echo "number is equel to 10"
 
 else
-
 echo "less the 10"
 
 fi
