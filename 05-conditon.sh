@@ -18,3 +18,19 @@ else
 echo "less then 5 or equel 5"
 
 fi
+
+num=10
+
+if [ $num -gt 5 ] ; then
+
+echo "number is gretern then 5"
+
+elif [ $num -eq 10 ]
+
+echo "number is equel to 10"
+
+else
+
+echo "less the 10"
+
+fi
